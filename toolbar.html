@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta charset="UTF-8">
+  <title>TOOLBAR</title>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">
+</head>
+<body>
+    <div class="container">   
+        <h1>TOOLBAR</h1>
+        <div class="btn-group">
+            <button type="button" class="btn btn-info">INFO</button>
+            <button type="button" class="btn btn-success">SUCCESS</button>
+            <button type="button" class="btn btn-warning">WARNING</button>
+            <button type="button" class="btn btn-danger">DANGER</button>
+
+            <button type="button" class="btn btn-success"><span class="glyphicon glyphicon-heart"></span> AMORE</button>
+        </div>
+        <div style="height:15px"></div>
+        <div class="btn-toolbar">
+            <div class="btn-group">
+                <button type="button" class="btn btn-default">INFO</button>
+                <button type="button" class="btn btn-default">SUCCESS</button>
+                <button type="button" class="btn btn-default">WARNING</button>
+                <button type="button" class="btn btn-default">DANGER</button>
+            </div>
+        </div>
+        <div style="height:15px"></div>
+        <div class="btn-toolbar">
+            <div class="btn-group-vertical">
+                <button type="button" class="btn btn-default">INFO</button>
+                <button type="button" class="btn btn-default">SUCCESS</button>
+                <button type="button" class="btn btn-default">WARNING</button>
+                <button type="button" class="btn btn-default">DANGER</button>
+            </div>
+        </div>
+        <div style="height:15px"></div>
+        <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                OPCIONES <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="#">opción 1</a>
+                </li>
+                <li>
+                    <a href="#">opción 2</a>
+                </li>
+                <li>
+                    <a href="#">opción 3</a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
